@@ -11,6 +11,8 @@ Desktop.ini # Windows desktop icon settings
 *.swo   # Vim swap files
 *.swn   # Vim swap files
 
+node_modules
+*.parcel-cache
 # Temporary or cache files
 *.tmp   # Temporary files
 *.temp  # Temporary files
