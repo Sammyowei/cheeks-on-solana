@@ -265,20 +265,20 @@
   left: 0;
 }
 
-.instagram-button-icon, .vector-icon {
-  width: 24.5px;
-  height: 25px;
+.instagram-button-icon {
+  width: 35px;
+  height: 40px;
   position: relative;
 }
 
 .vector-icon {
-  width: 27.5px;
-  height: 22px;
+  width: 35px;
+  height: 30px;
 }
 
 .twitter-button-icon {
-  width: 23.1px;
-  height: 25px;
+  width: 35px;
+  height: 30px;
   position: relative;
 }
 
@@ -286,12 +286,12 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 35px;
-  padding: 5px 44px;
-  display: flex;
+  gap: 40px;
+  padding: 10px 20px;
+  display: inline-flex;
   position: absolute;
   top: 14.95px;
-  right: -.06px;
+  right: -2px;
 }
 
 .container-3, .header {

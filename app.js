@@ -1,7 +1,6 @@
 
 
 
-
 function getYear() {
     const today = new Date();
     var year = today.getFullYear();
@@ -29,35 +28,76 @@ function formatNumber(number) {
     }
 }
 
-function copyContractAddress() {
-    var copyText = document.getElementById('contract-address');
 
-    navigator.clipboard.write(copyText.ariaValueText);
+
+
+
+
+
+
+// async function getMarketCap() {
+
+
+//     //  getting the environment variable from the environment
+
+
+
+
+
+//     console.log(
+//         'about to start operation 1'
+//     );
+
+//     try {
+//         const response = await axios.request(url, {
+//             headers: {
+//                 'X-CMC_PRO_API_KEY': apikey,
+//                 'Content-Type': 'applications/json'
+//             }
+//         });
+
+//         console.log('now we are here');
+//         // var data =
+//         //     JSON.stringify(response.data);
+
+//         // console.log(data)
+
+
+//     } catch (error) {
+//         console.log('sorry an unknown error occured', error);
+//     }
+
+
+
+//     console.log(response.statusText);
+// }
+
+
+async function fetchCryptoData() {
+
+
+    const apikey = "75f505f3-1022-42ca-82e1-a626f71b16e9";
+    const url = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/info?symbol=CHEEKS";
+
+    const headers = new Headers();
+    headers.append('Content-Type', 'application/json');
+    headers.append('X-CMC_PRO_API_KEY', apikey);
+    // try {
+
+
+
+    //     console.log(headers.entries());
+    //     const response = axios.getAdapter;
+
+    // } catch (error) {
+    //     console.error('Error fetching cryptocurrency data:', error);
+
+
+    //     return [];
+    // }
+
+    console.debug(headers.entries());
 }
 
 
-
-
-function customToast(message) {
-    var customToast = document.getElementById("customToast");
-    var customToastMessage = document.getElementById("customToastMessage");
-    customToastMessage.innerText = message;
-    customToast.style.display = "block";
-    setTimeout(function () {
-        customToast.style.display = "none";
-    }, 3000); // Hide the toast after 3 seconds
-}
-
-// Function to close custom toast
-function closeCustomToast() {
-    var customToast = document.getElementById("customToast");
-    customToast.style.display = "none";
-}
-
-// Function to show custom toast
-function showCustomToast() {
-    customToast('Contract address copied!');
-}
-
-// Custom toast function
-
+window.onload = fetchCryptoData();

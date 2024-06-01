@@ -11,6 +11,9 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" />
 </head>
 
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
 <body>
 
   <div id="toast-container"></div>
@@ -26,7 +29,7 @@
       <div class="section-one">
         <div class="header-body">
           <b class="cheeks-on-solana">CHEEKS ON SOLANA</b>
-          <b class="a-baby-monkey">A BABY MONKEY BUILDING THE BIGGEST SOLANA REVOLUTION. JOIN THE
+          <b class="a-baby-monkey">A BABY MONKEY BUILDING THE BIGGEST SOLANA REVOLUTION.<br>JOIN THE
             CULT!</b>
           <img class="cheeks-icon" alt="" src="./public/cheeks@2x.png" />
 
@@ -423,7 +426,34 @@
     <b class="cheeks-on-solana2">© <span id="copyright">2004</span> CHEEKS ON SOLANA</b>
   </div>
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-  <script src="app.js"></script>
+  <script src="app.js" type="module"></script>
+
+
+
+  <script>
+
+
+
+    function getMarketData() {
+      var url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/info?symbol=CHEEKS';
+      var header = {
+        'X-CMC_PRO_API_KEY': '75f505f3-1022-42ca-82e1-a626f71b16e9',
+        'Content-Type': 'application/json'
+      };
+
+      axios.get(url, {
+        header
+      },).then((result) => {
+        console.log(result);
+      }).catch((err) => {
+        console.error(err);
+      });;
+
+    }
+
+    window.onload = getMarketData();
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js"></script>
   <!-- <script>
     var bodyContainer = document.getElementById("bodyContainer");
     if (bodyContainer) {

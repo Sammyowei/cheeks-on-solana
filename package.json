@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "dev": "parcel ./*.html",
     "start": "parcel ./*.html ",
     "build": "parcel build ./*.html  --dist-dir ./build"
   },
-  "author": "",
+  "author": "Samuelson Owei",
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.7.0"

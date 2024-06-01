@@ -285,34 +285,34 @@
   object-fit: cover;
 }
 
-.instagram-button-icon {
-  width: 35px;
+.instagram-button-icon,
+.vector-icon {
+  width: 24.5px;
   position: relative;
-  height: 40px;
+  height: 25px;
 }
 
 .vector-icon {
-  width: 35px;
-  height: 30px;
+  width: 27.5px;
+  height: 22px;
 }
 
 .twitter-button-icon {
-  width: 35px;
+  width: 23.1px;
   position: relative;
-  height: 30px;
+  height: 25px;
 }
 
 .social-button-content {
   position: absolute;
   top: 14.95px;
-  right: -2px;
-  display: inline-flex;
+  right: -0.06px;
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: 10px 20px;
-  gap: 40px;
-
+  padding: 5px 44px;
+  gap: 35px;
 }
 
 .container-3,
@@ -1378,3 +1378,5 @@
   color: var(--color-white);
   font-family: var(--font-jaldi);
 }
+
+/*# sourceMappingURL=/cheeks-on-solana.9ad09f98.css.map */
