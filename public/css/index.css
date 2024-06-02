@@ -6,6 +6,13 @@
 }
 
 
+@font-face {
+  font-family: 'PotatoSans';
+  src: url(/public/font/Potato_sans-Black.otf) format('otf');
+
+
+}
+
 .carousel-container {
   width: 600px;
   height: 400px;
@@ -198,26 +205,27 @@
 .a-baby-monkey,
 .cheeks-on-solana {
   position: relative;
-  top: 80.2px;
-  left: 15.02px;
+  top: 5.2px;
+  left: 22.02px;
   right: 15.02px;
   line-height: 30px;
   display: inline-block;
   width: fit-content;
   height: 31.2px;
-  font-size: xx-large;
-  font-family: 'JomboSale';
+
+  font-family: 'PotatoSansBold';
 }
 
 .a-baby-monkey {
   width: 90%;
-  top: 101.89px;
-  left: 5%;
+  top: 2.89px;
+  left: 26px;
   font-size: large;
   line-height: 25px;
   color: var(--color-whitesmoke-200);
   height: 77.9px;
   font-family: 'JomboSale';
+  text-align: center;
 
 }
 
@@ -257,7 +265,7 @@
   width: 43.55%;
   top: 0;
   right: 28.97%;
-  left: 27.48%;
+  left: 28%;
   height: 53.8px;
 }
 
@@ -446,7 +454,7 @@
   width: calc(100% - 4.5px);
   top: 115.92px;
   right: 0.01px;
-  left: 4.49px;
+  left: 2px;
   height: 98.2px;
   color: var(--color-whitesmoke-100);
 }
@@ -520,19 +528,25 @@
 
 .tokenomics1 {
   position: absolute;
-  width: calc(100% - 150px);
+  width: calc(100% - 1px);
   top: 0;
-  left: 88.99px;
+  left: 69.99px;
   display: inline-block;
   height: 42.1px;
+  font-size: larger;
+  line-height: normal;
 }
 
 .cheeks-is-more {
   margin: 0;
+  position: relative;
+  text-align: center;
+  right: 2px;
+  top: 12px;
 }
 
 .cheeks-is-more-container {
-  position: absolute;
+  position: relative;
   width: 100%;
   top: 43.14px;
   left: 0;
@@ -1139,6 +1153,7 @@
   line-height: 20px;
   display: inline-block;
   height: 40.7px;
+  line-height: 20px;
 }
 
 .roadmap-container1 {
@@ -1358,7 +1373,7 @@
 
 .section-four {
   position: absolute;
-  top: 2475.36px;
+  top: 2530.36px;
   left: 44.01px;
   width: 300.5px;
   height: 601.1px;
