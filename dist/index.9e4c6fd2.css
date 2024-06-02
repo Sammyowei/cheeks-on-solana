@@ -177,17 +177,17 @@
   display: inline-block;
   position: absolute;
   top: 58.2px;
-  left: 5.02px;
+  left: 15.02px;
 }
 
 .a-baby-monkey {
-  font-size: var(--font-size-sm);
   color: var(--color-whitesmoke-200);
-  width: 56.74%;
+  width: 59%;
   height: 77.9px;
+  font-size: 16px;
   line-height: 25px;
   top: 101.89px;
-  left: 1.9%;
+  left: 5%;
 }
 
 .cheeks-icon {
@@ -465,7 +465,7 @@
 }
 
 .tokenomics1 {
-  width: calc(100% - 186px);
+  width: calc(100% - 150px);
   height: 42.1px;
   display: inline-block;
   position: absolute;

@@ -191,7 +191,7 @@
 .cheeks-on-solana {
   position: absolute;
   top: 58.2px;
-  left: 5.02px;
+  left: 15.02px;
   line-height: 30px;
   display: inline-block;
   width: 250px;
@@ -200,10 +200,10 @@
 }
 
 .a-baby-monkey {
-  width: 56.74%;
+  width: 59%;
   top: 101.89px;
-  left: 1.9%;
-  font-size: var(--font-size-sm);
+  left: 5%;
+  font-size: 16;
   line-height: 25px;
   color: var(--color-whitesmoke-200);
   height: 77.9px;
@@ -506,7 +506,7 @@
 
 .tokenomics1 {
   position: absolute;
-  width: calc(100% - 186px);
+  width: calc(100% - 150px);
   top: 0;
   left: 88.99px;
   display: inline-block;
