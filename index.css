@@ -191,11 +191,12 @@
 .cheeks-on-solana {
   position: absolute;
   top: 58.2px;
-  left: 17.02px;
+  left: 5.02px;
   line-height: 30px;
   display: inline-block;
-  width: 206px;
+  width: 250px;
   height: 31.2px;
+  font-size: larger;
 }
 
 .a-baby-monkey {
