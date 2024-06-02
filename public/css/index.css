@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'JumboSale';
+  src: url('/public/font/JumboSale.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 .carousel-container {
   width: 600px;
   height: 400px;
@@ -189,24 +197,28 @@
 
 .a-baby-monkey,
 .cheeks-on-solana {
-  position: absolute;
-  top: 58.2px;
+  position: relative;
+  top: 80.2px;
   left: 15.02px;
+  right: 15.02px;
   line-height: 30px;
   display: inline-block;
-  width: 250px;
+  width: fit-content;
   height: 31.2px;
-  font-size: larger;
+  font-size: xx-large;
+  font-family: 'JomboSale';
 }
 
 .a-baby-monkey {
-  width: 59%;
+  width: 90%;
   top: 101.89px;
   left: 5%;
-  font-size: 16;
+  font-size: large;
   line-height: 25px;
   color: var(--color-whitesmoke-200);
   height: 77.9px;
+  font-family: 'JomboSale';
+
 }
 
 .cheeks-icon {
@@ -270,11 +282,13 @@
 
 .header-body {
   position: absolute;
-  top: 113.33px;
-  left: 0;
+  top: 100.33px;
+  /* left: 10px; */
+  right: 10px;
+
   width: 386px;
   height: 296.2px;
-  color: var(--color-green-100);
+  color: var(--color-white);
 }
 
 .cheeks-logo-icon {

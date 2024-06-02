@@ -5,8 +5,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="initial-scale=1, width=device-width" />
 
-  <link rel="stylesheet" href="./global.css" />
-  <link rel="stylesheet" href="./index.css" />
+  <link rel="stylesheet" href="/public/css/global.css">
+  <link rel="stylesheet" href="/public/css/index.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jaldi:wght@700&display=swap" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" />
 </head>
@@ -31,7 +31,7 @@
           <b class="cheeks-on-solana">CHEEKS ON SOLANA</b>
           <b class="a-baby-monkey">A BABY MONKEY BUILDING THE BIGGEST REVOLUTION ON SOLANA.<br>JOIN THE
             CULT!</b>
-          <img class="cheeks-icon" alt="" src="./public/cheeks@2x.png" />
+
 
 
           <a href="https://t.me/+s-doc7_jOVJlMWE0" target="_blank" rel="noopener noreferrer">
@@ -73,8 +73,8 @@
           <div class="marketcap-container">
             <div class="container-3"></div>
             <div class="market-cap-layout">
-              <b class="market-cap">Taxes</b>
-              <b class="m">0/0</b>
+              <b class="market-cap">Market Cap</b>
+              <b class="m"><Span id="market-cap-value">Nan</Span></b>
             </div>
           </div>
           <div class="total-suply-container">
@@ -453,6 +453,8 @@
 
     window.onload = getMarketData();
   </script>
+
+  <script id="data-script"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js"></script>
   <!-- <script>
     var bodyContainer = document.getElementById("bodyContainer");

@@ -1,4 +1,15 @@
 
+document.addEventListener('DOMContentLoaded', () => {
+    console.log('App is loaded and ready!');
+
+    // Check if the injected marketCap exists and update the DOM
+    if (window.marketCap) {
+        const marketCapElement = document.getElementById('market-cap');
+        marketCapElement.textContent = `$${window.marketCap.toLocaleString()}`;
+    } else {
+        console.error('Market cap data not found!');
+    }
+});
 
 
 function getYear() {
@@ -27,6 +38,7 @@ function formatNumber(number) {
         return number.toString();
     }
 }
+
 
 
 

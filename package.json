@@ -1,15 +1,15 @@
 {
-  "name": "cheeks-on-solana",
+  "name": "my-app",
   "version": "1.0.0",
-  "description": "Note: Please ensure you have installed <code><a href=\"https://nodejs.org/en/download/\">nodejs</a></code>",
+  "description": "A basic web application setup",
+  "main": "server.js",
   "scripts": {
-    "dev": "parcel ./*.html",
-    "start": "parcel ./*.html ",
-    "build": "parcel build ./*.html  --dist-dir ./build"
+    "start": "node server.js"
   },
-  "author": "Samuelson Owei",
-  "license": "ISC",
-  "devDependencies": {
-    "parcel": "^2.7.0"
-  }
+  "dependencies": {
+    "axios": "^1.7.2",
+    "express": "^4.17.1"
+  },
+  "author": "Your Name",
+  "license": "ISC"
 }

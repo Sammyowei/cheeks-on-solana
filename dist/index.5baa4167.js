@@ -638,6 +638,6 @@ async function fetchCryptoData() {
 }
 window.onload = fetchCryptoData();
 
-},{}]},["hPIHA","igcvL"], "igcvL", "parcelRequire5031")
+},{}]},["hPIHA","igcvL"], "igcvL", "parcelRequire2bed")
 
 //# sourceMappingURL=index.5baa4167.js.map
